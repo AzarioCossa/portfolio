@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import GlobalStyles from './styles/GlobalStyles';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
+import ProjectsSection from './components/ProjectsSection';
+import SkillsSection from './components/SkillsSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
+import MatrixBackground from './components/MatrixBackground';
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyles />
+      <div className="antialiased">
+        <div className="scanline"></div>
+        <MatrixBackground />
+        <Header />
+        <main className="container mx-auto px-4 sm:px-6 lg:px-8 pt-24">
+            <HeroSection />
+            <AboutSection />
+            <ProjectsSection />
+            <SkillsSection />
+            <ContactSection />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
-
-export default App;
