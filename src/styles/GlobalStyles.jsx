@@ -1,5 +1,6 @@
 const GlobalStyles = () => (
     <style>{`
+        /* ... (nenhuma alteração nos estilos, o CSS permanece o mesmo) ... */
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap');
         
         :root {
@@ -135,6 +136,31 @@ const GlobalStyles = () => (
         .fade-in-section.is-visible {
             opacity: 1;
             transform: translateY(0);
+        }
+
+        .gemini-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .loader {
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--primary-color);
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+
+        @keyframes rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
         }
     `}</style>
 );
