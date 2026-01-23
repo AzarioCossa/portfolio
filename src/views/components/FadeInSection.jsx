@@ -1,4 +1,4 @@
-import { useIntersectionObserver } from '../Utils/InteractionObserver';
+import { useIntersectionObserver } from '../../Utils/InteractionObserver';
 const FadeInSection = ({ children }) => {
     const [ref, isVisible] = useIntersectionObserver({ threshold: 0.15 });
     return (

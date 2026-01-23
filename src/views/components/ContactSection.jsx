@@ -2,7 +2,7 @@ import FadeInSection from './FadeInSection';
 const ContactSection = () => (
     <section id="contact" className="py-20">
         <FadeInSection>
-            <h2 className="text-4xl font-orbitron font-bold text-center mb-4 text-glow">04. Establish Connection</h2>
+            <h2 className="text-4xl font-orbitron font-bold text-center mb-4 text-glow">07. Establish Connection</h2>
             <p className="text-center max-w-xl mx-auto mb-12">I am currently available for new projects and collaborations. Send a signal, and I'll respond.</p>
             <div className="max-w-lg mx-auto">
                 <form action="#" method="POST" className="space-y-6">

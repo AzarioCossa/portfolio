@@ -16,7 +16,7 @@ const MatrixBackground = () => {
         window.addEventListener('resize', resizeCanvas);
 
         const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
-        const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZAZLE1XV';
         const nums = '0123456789';
         const alphabet = katakana + latin + nums;
         

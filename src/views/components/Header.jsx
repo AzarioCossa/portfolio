@@ -8,8 +8,11 @@ const Header = () => (
                 <nav className="hidden md:flex items-baseline space-x-4">
                     <a href="#about" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">01.ABOUT</a>
                     <a href="#projects" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">02.PROJECTS</a>
-                    <a href="#skills" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">03.SKILLS</a>
-                    <a href="#contact" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">04.CONTACT</a>
+                    <a href="#experience" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">03.EXPERIENCE</a>
+                    <a href="#education" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">04.EDUCATION</a>
+                    <a href="#skills" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">05.SKILLS</a>
+                    <a href="#soft-skills" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">06.SOFT SKILLS</a>
+                    <a href="#contact" className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-[var(--primary-color)] hover:text-glow transition-colors duration-300">07.CONTACT</a>
                 </nav>
             </div>
         </div>

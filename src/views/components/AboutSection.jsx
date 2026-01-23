@@ -13,9 +13,10 @@ const AboutSection = () => (
                     </div>
                 </div>
                 <div className="md:col-span-2">
-                    <p className="mb-4">Hello! I'm Alex, a systems architect with a passion for building robust, scalable, and secure digital infrastructures. My journey began in the early days of decentralized networks, and since then, I've been on a relentless quest to push the boundaries of what's possible in the digital realm.</p>
-                    <p className="mb-4">My core philosophy is that technology should be a seamless extension of human capability. I specialize in cloud-native architectures, AI integration, and blockchain technologies, transforming complex problems into elegant, efficient solutions.</p>
-                    <p>When I'm not architecting the future, you can find me exploring cryptographic theories or contributing to open-source quantum computing projects.</p>
+                    <p className="mb-4"> Hello! I'm Azário, a software developer and systems architect passionate about creating efficient, secure, and scalable applications. My journey started with a deep curiosity for how systems communicate — from network protocols to backend infrastructures — and evolved into a mission to build solutions that make technology seamless and powerful.</p>
+                    <p className="mb-4">I specialize in backend development, API design, and database architecture, using technologies like Java, Rust, Python, and Node.js. I enjoy transforming complex technical challenges into clean, maintainable solutions, with a strong focus on performance and reliability.</p>
+                    <p> When I'm not building or optimizing systems, you'll find me exploring cryptography, experimenting with new frameworks, or developing tools that simplify everyday digital workflows.</p>
+
                 </div>
             </div>
         </FadeInSection>
